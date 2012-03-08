@@ -1,0 +1,30 @@
+stdcore[0] (node "0", core 0) stack usage,  upper bound: 3508
+stdcore[0] (node "0", core 0) program size,  upper bound: 23508
+stdcore[0] (node "0", core 0) free memory,  lower bound: 38520
+stdcore[0] (node "0", core 0) thread usage,  upper bound: 7+
+stdcore[0] (node "0", core 0) unused threads,  lower bound: 1
+stdcore[0] (node "0", core 0) timer count,  upper bound: 4+
+stdcore[0] (node "0", core 0) unused timers,  lower bound: 6
+stdcore[0] (node "0", core 0) channel end usage,  upper bound: 16+
+stdcore[0] (node "0", core 0) unused channel ends,  lower bound: 16
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1I
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1L
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1A
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1C
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1D
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1K
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1B
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1M
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1J
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1H
+stdcore[0] (node "0", core 0) uses port XS1_PORT_8C
+stdcore[0] (node "0", core 0) uses port XS1_PORT_8D
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1N
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1O
+stdcore[0] (node "0", core 0) uses port XS1_PORT_1P
+stdcore[0] (node "0", core 0) uses port XS1_PORT_8A
+stdcore[0] (node "0", core 0) uses port XS1_PORT_8B
+Node "0" routing id =  0x0000
+Node "0" PLL configuration register value =  0x00031f0c
+Node "0" reference clock divider register value =  0x00000003
+Node "0" system frequency (Hz) =  400000000

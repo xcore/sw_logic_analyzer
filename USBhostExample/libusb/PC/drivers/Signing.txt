@@ -1,0 +1,10 @@
+Procedure for signing driver
+----------------------------
+
+-Need Windows SDK installed (version 6.0) and on path
+-Need Microsoft Winqual Submission Tool (for which need a login on WinQual)
+-Need Root-authority Cross-certificate for Verisign from http://www.microsoft.com/whdc/winlogo/drvsign/crosscert.mspx
+-Need our pfx installed in "personal" certificate store on computer
+
+> "C:\Program Files\Microsoft Winqual Submission Tool\inf2cat.exe" /driver:. /os:2000,XP_X86.XP_X64,Vista_X86,Vista_X64,7_X86,7_X64 /v
+> signtool sign /ac "C:\MSVC_VClass3\MSCV-VSClass3.cer /s my /sha1 FD83518093AF2913B2662DD305C0E708D6374AD2 /t http://timestamp.verisign.com/scripts/timstamp.dll /v xtag-2.cat xtag-2_x64.cat
